@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addNewStudent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow android:layout_margin="10dp">
+
+            <EditText
+                android:id="@+id/enrollment"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/curved_borders"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:hint="@string/enrollment_number"
+                android:inputType="number"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                />
+        </TableRow>
+
+        <TableRow android:layout_margin="10dp">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="359dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/curved_borders"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:hint="@string/student_name"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"/>
+        </TableRow>
+
+        <TableRow android:layout_margin="10dp">
+
+            <EditText
+                android:inputType="textEmailAddress"
+                android:id="@+id/email"
+                android:layout_width="359dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/curved_borders"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:hint="@string/e_mail"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"/>
+        </TableRow>
+        <TableRow android:layout_margin="10dp">
+
+            <EditText
+                android:inputType="textVisiblePassword"
+                android:id="@+id/password"
+                android:layout_width="359dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/curved_borders"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:hint="@string/password"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"/>
+        </TableRow>
+
+        <TableRow android:layout_margin="10dp">
+
+            <EditText
+                android:id="@+id/course"
+                android:layout_width="359dp"
+                android:layout_height="57dp"
+                android:background="@drawable/curved_borders"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:hint="@string/course"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"/>
+        </TableRow>
+
+        <TableRow android:layout_margin="10dp">
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/year"
+                android:layout_width="359dp"
+                android:layout_height="57dp"
+                android:background="@drawable/curved_borders"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:hint="@string/year"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"/>
+        </TableRow>
+        <TableRow android:layout_margin="10dp">
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/semester"
+                android:layout_width="359dp"
+                android:layout_height="57dp"
+                android:background="@drawable/curved_borders"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:hint="@string/semester"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"/>
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:id="@+id/adding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:backgroundTint="@color/turquious"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

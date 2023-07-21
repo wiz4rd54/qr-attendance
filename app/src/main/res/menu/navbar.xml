@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_house"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/progress"
+        android:icon="@drawable/ic_progress"
+        android:title="Progress" />
+    <item
+        android:id="@+id/scan"
+        android:icon="@drawable/ic_scan"
+        android:title="Scan"
+        android:iconTint="@color/icon"/>
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile" />
+</menu>

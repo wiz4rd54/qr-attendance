@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:gravity="center">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/curved_borders"
+                android:padding="10dp"
+                android:text="@string/name"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="128dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/enrollment"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:background="@drawable/curved_borders"
+                android:padding="10dp"
+                android:text="@string/enrollment_id"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="189dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/course"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:background="@drawable/curved_borders"
+                android:padding="10dp"
+                android:text="@string/course"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="250dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/year"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:background="@drawable/curved_borders"
+                android:padding="10dp"
+                android:text="@string/year_of_study"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="308dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/semester"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:background="@drawable/curved_borders"
+                android:padding="10dp"
+                android:text="@string/semester"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="424dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="162dp"
+        android:layout_height="56dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:text="@string/log_out"
+        android:backgroundTint="@color/turquious"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="@string/welcome_back"
+        android:textAlignment="center"
+        android:textColor="@color/turquious"
+        android:textSize="35sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <ImageView
+        android:layout_width="296dp"
+        android:layout_height="241dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_untitled">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/curved_borders"
+        android:hint="@string/username"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:textColor="#3F3D56"
+        android:textColorHint="#3F3D56"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/curved_borders"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColor="#3F3D56"
+        android:textColorHint="#3F3D56"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/login"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        android:backgroundTint="@color/turquious"
+        android:layout_gravity="center_horizontal">
+    </Button>
+
+    <TextView
+        android:id="@+id/forgotPWD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/forgot_password"
+        android:textAlignment="center"
+        android:textColor="@color/turquious"
+        android:textSize="20sp"
+        android:textStyle="bold">
+    </TextView>
+
+</LinearLayout>

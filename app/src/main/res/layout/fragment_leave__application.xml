@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Leave_Application">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow android:layout_margin="10dp">
+
+                <EditText
+                    android:id="@+id/dateFrom"
+                    android:layout_width="359dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/curved_borders"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:hint="@string/from_mm_dd_yyyy"
+                    android:textSize="25sp"
+                    android:inputType="date"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"/>
+            </TableRow>
+
+            <TableRow android:layout_margin="10dp">
+
+                <EditText
+                    android:id="@+id/dateTo"
+                    android:layout_width="359dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/curved_borders"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:hint="@string/to_mm_dd_yyyy"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="25sp"
+                    android:inputType="date"
+                    tools:layout_editor_absoluteX="26dp"
+                    tools:layout_editor_absoluteY="255dp"/>
+            </TableRow>
+
+            <TableRow android:layout_margin="10dp">
+
+                <EditText
+                    android:id="@+id/reason"
+                    android:layout_width="359dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/curved_borders"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:hint="@string/reasons"
+                    android:textSize="25sp"
+                    tools:layout_editor_absoluteX="26dp"
+                    tools:layout_editor_absoluteY="328dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"/>
+            </TableRow>
+        </TableLayout>
+
+        <Button
+        android:id="@+id/button"
+        android:layout_width="126dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#04BF8A"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+    </LinearLayout>
+
+</FrameLayout>

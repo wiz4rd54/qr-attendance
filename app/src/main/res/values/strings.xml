@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">QRAttendance</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_dashboard_fragment">Hello dashboard fragment</string>
+    <string name="hello_profile_fragment">Hello profile fragment</string>
+    <string name="hello_progress_fragment">Hello progress fragment</string>
+    <string name="hello_scan_fragment">Hello scan fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_password">New password</string>
+    <string name="confirm">Confirm</string>
+    <string name="set_password">Set Password</string>
+    <string name="todo">TODO</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="go">GO</string>
+    <string name="otp">OTP</string>
+    <string name="todo1">TODO</string>
+    <string name="email_id">Email-Id</string>
+    <string name="send">Send</string>
+    <string name="todo2">TODO</string>
+    <string name="from_mm_dd_yyyy">From MM-DD-YYYY</string>
+    <string name="to_mm_dd_yyyy">To MM-DD-YYYY</string>
+    <string name="reasons">Reasons</string>
+    <string name="submit">SUBMIT</string>
+    <string name="program">Program</string>
+    <string name="course_name">Course Name</string>
+    <string name="course_code">Course Code</string>
+    <string name="year">Year</string>
+    <string name="semester">Semester</string>
+    <string name="add">Add</string>
+    <string name="course">Course</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="student_name">Student Name</string>
+    <string name="enrollment_number">Enrollment Number</string>
+    <string name="logout">Logout</string>
+    <string name="generate_qr">Generate QR</string>
+    <string name="add_student">Add student</string>
+    <string name="add_course">Add Course</string>
+    <string name="generate">Generate</string>
+    <string name="done">Done</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="username">Username</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="academic_calendar">Academic Calendar</string>
+    <string name="apply_for_leave">Apply for leave</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="year_of_study">Year Of Study</string>
+    <string name="enrollment_id">Enrollment ID</string>
+    <string name="name">Name</string>
+</resources>
